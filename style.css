@@ -247,8 +247,19 @@ nav ul li:first-child a{
     flex-direction: column;
     justify-content: center;
 }
+.skills h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ff7a59;
+}
 .skill {
   margin-bottom: 15px;
+}
+.skill p {
+  font-size: 1.125rem;
+  margin-bottom: 6px;
+  color: #f0f0f0;
 }
 
 .progress {
@@ -262,4 +273,22 @@ nav ul li:first-child a{
   height: 10px;
   background-color: #4caf50;
   border-radius: 10px;
+}
+.soft-skills span {
+  display: inline-block;
+  background: #e0e0e0;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 14px;
+}
+.soft-skills span {
+    display: inline-block;
+    background: #ff7a59;
+    color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
 }
