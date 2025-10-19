@@ -97,80 +97,6 @@ body{
     color:var(--primary);
 }
 
-/* Education section styles */
-.edu {
-    width: 80%;
-    margin: 60px auto;
-    padding: 40px;
-    background: var(--glass);
-    backdrop-filter: blur(10px);
-    border-radius: var(--radius);
-    box-shadow: 0 8px 32px rgba(15,23,42,0.08);
-}
-
-.edu h1 {
-    color: var(--primary);
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    letter-spacing: -0.5px;
-}
-
-.edu .eng, .edu .dip, .edu .school {
-    padding: 25px;
-    margin-bottom: 30px;
-    background: rgba(255,255,255,0.7);
-    border-radius: var(--radius);
-    border-left: 4px solid var(--accent);
-    transition: transform 0.2s ease;
-}
-
-.edu .eng:hover, .edu .dip:hover, .edu .school:hover {
-    transform: translateX(10px);
-}
-
-.edu h2 {
-    color: var(--primary);
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-
-.edu h3 {
-    color: var(--accent);
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
-
-.edu ul {
-    list-style-position: inside;
-    color: var(--muted);
-}
-
-.edu li {
-    margin-bottom: 8px;
-    line-height: 1.5;
-}
-
-@media (max-width: 768px) {
-    .edu {
-        width: 90%;
-        padding: 20px;
-    }
-    
-    .edu h1 {
-        font-size: 2rem;
-    }
-    
-    .edu h2 {
-        font-size: 1.3rem;
-    }
-    
-    .edu h3 {
-        font-size: 1rem;
-    }
-}
-
 nav ul{
     list-style: none;
     display: flex;
@@ -284,20 +210,24 @@ nav ul li:first-child a{
     line-height: 1.6;
     color: #f0f0f0;
 }
-.edu{
-    height: 70vh;
+
+.edu {
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 30px;
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius);
+    box-shadow: 0 8px 32px rgba(15,23,42,0.08);
 }
 
 .edu h1{
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-align: center;
-    color: #333;
+    color: #ff7a59;
 }
 .edu h2{
     font-size: 1.8rem;
@@ -308,4 +238,28 @@ nav ul li:first-child a{
     font-size: 1.25rem;
     margin-bottom: 5px;
     color: #ff7a59;
+}
+.skills{
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skill {
+  margin-bottom: 15px;
+}
+
+.progress {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  height: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #4caf50;
+  border-radius: 10px;
 }
