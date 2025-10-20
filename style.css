@@ -322,3 +322,40 @@ nav ul li:first-child a{
     margin: 5px;
     font-size: 14px;
 }
+.projectscontainer{
+    height: auto;
+    width: 100%;
+    background: var(--bg-1);
+    margin-top: 50px;
+}
+.projectscontainer h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ff7a59;
+}
+.projectscontainer .projectes{
+    width: 80%;
+    margin: auto;
+}
+.projectscontainer .project-card{
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 400px;
+    background: var(--bg-2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.projectscontainer .project-card .porjectImg img{
+    width: 100%;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+}
+.project-content h3{
+    font-size: 1.5rem;
+    
+}
