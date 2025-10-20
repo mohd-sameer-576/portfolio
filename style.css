@@ -303,28 +303,31 @@ nav ul li:first-child a{
     width: 100%;
     background: var(--bg-2);
 }
+.contactContaoner h2{
+    font-size: 2.4rem;
+    color: var(--accent);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 26px;
+}
 .contact {
-    width: 80%;
+    width: 70%;
     margin: auto;
     background: var(--bg-2);
     border-radius: var(--radius);
     box-shadow: 0 8px 32px rgba(15,23,42,0.08);
     padding: 36px 24px 28px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contact h2 {
-    font-size: 2.2rem;
-    color: var(--accent);
-    margin-bottom: 28px;
-    text-align: center;
+    display: grid;
+    /* flex-direction: column;
+    align-items: center; */
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
 }
 .contactOption {
     display: flex;
     align-items: center;
     gap: 18px;
-    background: rgba(255,255,255,0.7);
+    background: var(--bg-1);
     border-radius: var(--radius);
     box-shadow: 0 2px 8px rgba(15,23,42,0.04);
     padding: 18px 22px;
