@@ -389,16 +389,18 @@ nav ul li:first-child a{
 @media (max-width: 768px) {
     .about {
         flex-direction: column;
-        /* text-align: center; */
-        gap: 1rem;
+        gap: 0;
     }
 
     .about .aboutLeft {
         order: -1;
     }
+    .about .aboutRight {
+        justify-content: start;
+    }
 
     .about img {
-        max-width: 280px;
+        max-width: 200px;
     }
 }
 .eduContainer {
@@ -453,6 +455,15 @@ nav ul li:first-child a{
 @media (max-width: 768px) {
     .edu {
         gap: 1.5rem;
+    }
+    .edu h2{
+        font-size: 1rem;
+    }
+    .edu h3{
+        font-size: 0.85rem;
+    }
+    .edu ul li {
+        font-size: .5rem;
     }
 }
 .skills {
